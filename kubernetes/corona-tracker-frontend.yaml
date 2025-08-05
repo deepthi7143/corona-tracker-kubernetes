@@ -18,7 +18,7 @@ spec:
     spec:                                               # Spec for the containers that will run inside the Pods
       containers:
       - name: corona-tracker-frontend
-        image: 147997133170.dkr.ecr.us-west-1.amazonaws.com/corona
+        image: 147997133170.dkr.ecr.us-west-1.amazonaws.com/corona:IMAGE_TAG
         imagePullPolicy: IfNotPresent
         ports:
           - containerPort: 3000                           # Should match the Port that the container listens on
