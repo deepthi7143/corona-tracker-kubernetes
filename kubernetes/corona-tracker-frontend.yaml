@@ -34,5 +34,5 @@ spec:
   selector:
     app: corona-tracker-client                          # Any Pod matching the label `app=corona-tracker-client` will be picked up by this service
   ports:                                                # Forward incoming connections on port 80 to the target port 80 in the Pod
-  - port: 3000
+  - port: 80
     targetPort: 3000
